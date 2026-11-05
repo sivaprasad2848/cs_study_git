@@ -1,10 +1,13 @@
 git --version
 git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
+git add
+git commit
+git branch
 git remote add origin <url>
-git push -u origin main
+git push -u origin <branch-name>
 git status
 git clone
-git branch
+git checkout -b <branch-name>
+git stash
+git merge
+git pull
